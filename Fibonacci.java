@@ -13,10 +13,10 @@ public class Fibonacci {
     public static void main(String[] args)
     {
                 Scanner scanner = new Scanner(System.in);
-                System.out.println("ENTER THE NUMBER OF TERMS YOU WANT IN FIBONACCI SERIES : ");
+                System.out.print("ENTER THE NUMBER OF TERMS YOU WANT IN FIBONACCI SERIES : ");
                 int n = scanner.nextInt();
                 for(int i = 0; i<n; i++){
-                    System.out.println("THE FIBONACCI SERIES IS : "+fibo(i));
+                    System.out.println(fibo(i));
                 }
                 scanner.close();
     }
