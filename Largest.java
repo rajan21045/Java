@@ -5,7 +5,6 @@ public class Largest {
         int size = arr.length;
         if (size < 2) {
             System.out.println("Invalid Input");
-            return;
         } else {
             Arrays.sort(arr);
             System.out.println("Second largest element is: " + arr[size - 2]);
