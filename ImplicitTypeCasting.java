@@ -1,3 +1,8 @@
+/* Question:  
+
+Write a Java program to demonstrate implicit type casting from `int` to `double`.
+*/
+
 public class ImplicitTypeCasting {
     public static void main(String[] args) {
         int intValue = 42;
