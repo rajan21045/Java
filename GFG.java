@@ -1,14 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Array;
+/* Question:
 
-/**
- *
- * @author adobe
- */
-
+Write a Java program to check whether a given array is sorted in ascending order. */
 class GFG{
     public static void main(String[] args)
     {
