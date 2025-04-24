@@ -1,5 +1,7 @@
 /*Design a Java Swing Student Registration Form with fields for name, address, phone, gender (radio buttons), course (combo box), email */
 import javax.swing.*;
+import java.awt.event.*;
+
 public class form {
     // Constructor code here
     public form() {
@@ -49,11 +51,9 @@ public class form {
         JRadioButton rb1 = new JRadioButton("Male");
         rb1.setBounds(150, 140, 100, 20);
         f.add(rb1);
-
         JRadioButton rb2 = new JRadioButton("Female");
         rb2.setBounds(250, 140, 100, 20);
         f.add(rb2);
-
         JRadioButton rb3 = new JRadioButton("Other");
         rb3.setBounds(350, 140, 100, 20);
         f.add(rb3);
@@ -67,6 +67,7 @@ public class form {
         cb.setBounds(200, 170, 150, 20);
         f.add(cb);
 
+        //label and textfield for email
         JLabel mail = new JLabel("Enter your email:");
         mail.setBounds(50, 200, 150, 20);
         f.add(mail);
@@ -75,8 +76,16 @@ public class form {
         f.add(tf3);
 
         JButton submit = new JButton("Submit");
-        submit.setBounds(150, 240, 100, 30);
+        submit.setBounds(200, 240, 100, 30);
         f.add(submit);
+
+//event handling 
+        submit.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Display message
+                JOptionPane.showMessageDialog(f, "Submission successful!");
+            }
+        });
 
         // Grouping the Radio Buttons (so only one can be selected)
         ButtonGroup bg = new ButtonGroup();
