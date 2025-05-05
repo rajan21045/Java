@@ -1,3 +1,4 @@
+//SHOWING THE EXAMPLE OF TYPECASTING IN JAVA
 public class Typecasting {
 
    public static void main(String[] args) {
