@@ -1,10 +1,13 @@
 /* Question: 
-Write a Java program to demonstrate explicit type casting from `float` to `int`. */
+Write a Java program to demonstrate explicit type casting  
+from `float` to `int`. */
 
 // Define the FloatToIntCasting class
 public class FloatToIntCasting {
+
     // Main method - entry point of the program
     public static void main(String[] args) {
+
         // Declare and initialize a float variable
         float floatValue = 19.99f; // 'f' suffix denotes a float literal
         
