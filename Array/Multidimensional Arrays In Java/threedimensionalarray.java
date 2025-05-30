@@ -39,7 +39,6 @@ public class threedimensionalarray {
                     // Printing each element in the 3D array
                     System.out.print(arr[i][j][k] + " ");
                 }
-
                 // New line after printing all columns in a row
                 System.out.println();
             }
