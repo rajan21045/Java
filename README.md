@@ -20,8 +20,7 @@ The goal is to organize my progress and create a reliable reference for revision
 🤝 Share helpful code with classmates and other learners
 
 # 📬 Contact
-If you have feedback or want to discuss code:
+For feedback, collaboration, or questions, feel free to reach out:
 
-📧 Email: raajan.works@example.com
-
-🌐 GitHub: @rajan21045
+	📧 Email: raajan.works@gmail.com
+	🌐 GitHub: @rajan21045
