@@ -2,6 +2,7 @@ import java.util.*; // Importing java.util package to use the Vector class
 
 public class VectorExample {
     public static void main(String[] args) {
+
         // Creating a Vector of type String
         Vector<String> vec = new Vector<String>();
 
