@@ -1,7 +1,9 @@
 public class seccons {
+
     public void m (){
         System.out.println("This is a method");
     }
+
     public void n (){
         this.m();
         System.out.println("This is another");
