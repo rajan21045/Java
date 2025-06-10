@@ -6,6 +6,7 @@ public class WrapperExample2 {
 
         // Explicit unboxing
         int i = a.intValue();
+
         // Auto-unboxing
         int j = a;
 
