@@ -1,5 +1,6 @@
 public class WrapperExample {
     public static void main(String[] args) {
+
         int a = 20; // Primitive int variable
 
         // Converting int to Integer explicitly (boxing)
