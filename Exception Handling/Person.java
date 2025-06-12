@@ -6,14 +6,17 @@ class Person {
     int age;
 
     void setAge(int age) throws Exception {
+        
         if (age < 0) {
             throw new Exception("Age cannot be negative");
         }
         this.age = age;
     }
 }
+
 public class Per {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         Person p = new Person();
 
