@@ -15,6 +15,7 @@ public class power {
             // Recursive case: multiply base by result of base^(exponent-1)
             return base * ppower(base, exponent - 1);
         }
+        
     }
 
     // Main method - entry point of the program
@@ -43,5 +44,6 @@ public class power {
         
         // Close the Scanner to prevent resource leaks
         scanner.close();
+        
     }
 }
