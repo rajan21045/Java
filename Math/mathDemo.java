@@ -45,5 +45,6 @@ public class mathDemo {
         
         // Calculate and print the cosine of 3.3 radians
         System.out.println("Example Of Showing Cos() Is " + Math.cos(3.3));
+        
     }
 }
