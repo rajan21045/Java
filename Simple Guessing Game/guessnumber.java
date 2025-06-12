@@ -3,9 +3,11 @@ import java.util.Random; //Import Random class to generate a random number
 
 public class guessnumber {
     public static void main(String[] args) {
+        
                             int guess;
                             int attempt=0;
                             Random random = new Random();
+        
                             int min = 1;       // Define the minimum value for the random number
 
                             int max = 100;  // Define the maximum value for the random number
