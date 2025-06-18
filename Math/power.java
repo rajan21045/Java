@@ -10,7 +10,9 @@ public class power {
         // Base case: if exponent is 0, return 1
         if (exponent == 0) {
             return 1;
-        } else {
+        } 
+
+                else {
 
             // Recursive case: multiply base by result of base^(exponent-1)
             return base * ppower(base, exponent - 1);
