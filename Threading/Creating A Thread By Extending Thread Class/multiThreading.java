@@ -8,12 +8,12 @@ class ThreadDemo extends Thread{
 
     public void run(){
         System.out.println("Running "+threadName);
-        try{
-            for (int i=4; i>0;i--){
-                System.out.println("Thread: "+threadName +", "+i);
-                //Let The Thread Sleep For A While.
-                Thread.sleep(50);
-            }
+            try{
+                    for (int i=4; i>0;i--){
+                            System.out.println("Thread: "+threadName +", "+i);
+                            //Let The Thread Sleep For A While.
+                            Thread.sleep(50);
+                    }
         }catch (InterruptedException e)
         {
             System.out.println("Thread "+ threadName + "interrupted.");
