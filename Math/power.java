@@ -8,7 +8,8 @@ public class power {
     public static int ppower(int base, int exponent) {
 
         // Base case: if exponent is 0, return 1
-        if (exponent == 0) {
+        
+    if (exponent == 0) {
             return 1;
         } 
 
