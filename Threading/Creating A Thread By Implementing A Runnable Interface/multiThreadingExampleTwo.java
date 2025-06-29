@@ -19,7 +19,6 @@ class RunnableDemo implements Runnable{
         }
         System.out.println("Thread "+ threadName + " exiting.");
     }
-
     public void start(){
         System.out.println("Starting "+threadName);
         if(t==null){
