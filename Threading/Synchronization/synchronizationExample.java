@@ -9,6 +9,7 @@ class First{
         System.out.println("]");
     }
 }
+
 class Second extends Thread{
     String msg;
     First fobj;
