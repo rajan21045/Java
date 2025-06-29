@@ -12,7 +12,7 @@ public class shoppingCartProgram {
 
         System.out.print("What Item Would You Like To Buy:  ");
         items = sc.nextLine();
-
+ 
         System.out.print("What Is The Price For Each?: ");
         price = sc.nextDouble();
 
