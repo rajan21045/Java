@@ -8,11 +8,11 @@ public class guessnumber {
                             int attempt=0;
                             Random random = new Random();
         
-                            int min = 1;       // Define the minimum value for the random number
+                        int min = 1;       // Define the minimum value for the random number
 
-                            int max = 100;  // Define the maximum value for the random number
+                        int max = 100;  // Define the maximum value for the random number
 
-                            int number = random.nextInt(min, max+1); // Generate a random number between 1 and 100
+                        int number = random.nextInt(min, max+1); // Generate a random number between 1 and 100
 
                             Scanner scanner = new Scanner(System.in);  // Create a Scanner object to take user input
 
