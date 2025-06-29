@@ -1,6 +1,7 @@
 public class WrapperExample2 {
     public static void main(String[] args) {
 
+
         // Creating an Integer object using valueOf (preferred way)
         Integer a = Integer.valueOf(3);
 
