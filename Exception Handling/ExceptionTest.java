@@ -9,8 +9,10 @@ public class ExceptionTest {
             if (age < 0) {
                 throw new Exception("Age cannot be negative");
             }
+            
         }catch (Exception e) {
             System.out.println("Exception: " + e.getMessage());
         }
+        
     }
 }
