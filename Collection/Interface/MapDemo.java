@@ -1,18 +1,20 @@
-import java.util.*; // Importing java.util package to use HashMap and Map.Entry
+import java.util.*; // Importing utility package for Map, HashMap, and Map.Entry
 
-public class MapDemo {
+public class mapdemo {
     public static void main(String[] args) {
         // Creating a HashMap with Integer keys and String values
-        HashMap<Integer, String> map = new HashMap<Integer, String>();
+        Map<Integer, String> map = new HashMap<Integer, String>();
 
-        // Adding key-value pairs to the HashMap
-        map.put(103, "Ashok");
-        map.put(101, "Amit");
-        map.put(104, "Vijay");
+        // Adding key-value pairs to the map
+        map.put(103, "Amit");
+        map.put(104, "Anuj");
+        map.put(105, "Ashok");
+        map.put(106, "Abin");
+        map.put(107, "Rajan");
 
-        // Iterating over the entry set of the HashMap using a for-each loop
+        // Traversing the map entries using for-each loop
         for (Map.Entry m : map.entrySet()) {
-            // Printing the key and value of each entry
+            // Printing each key-value pair
             System.out.println(m.getKey() + " " + m.getValue());
         }
     }
