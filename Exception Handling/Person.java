@@ -2,7 +2,7 @@
 a negative number for age. Demonstrate the use of exception handling to catch and display the error message. */
 
 import java.util.Scanner;
-class Person {
+class Per {
     int age;
 
     void setAge(int age) throws Exception {
@@ -14,11 +14,11 @@ class Person {
     }
 }
 
-public class Per {
+public class Person{
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        Person p = new Person();
+        Per p = new Per();
 
         try {
             System.out.print("Enter age: ");
