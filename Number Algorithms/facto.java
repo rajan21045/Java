@@ -1,6 +1,6 @@
 // Program to find the factorial of a number
 import java.util.Scanner;
-
+ 
 // Define the facto class
 public class facto {
     // Main method - entry point of the program
