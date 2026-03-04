@@ -17,7 +17,7 @@ public class javaOOPSLearningPolymorphism {
         myCat.sound();    // Calls Cat's overridden method
     }
 }
-
+ 
 // Compile-time polymorphism (Method Overloading)
 class Adder {
     static int add(int a, int b) {
