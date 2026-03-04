@@ -6,7 +6,7 @@ public class javaOOPSLearningFirst {
         p1.color = "Red";
         p1.type = "ball pen";
         p1.write();
-
+ 
         // Creating second Pen object
         Pen p2 = new Pen();
         p2.color = "Blue";
