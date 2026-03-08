@@ -1,5 +1,7 @@
-/* Write a Java program to calculate the 
-sum of all elements in an integer array. */
+/* 
+Write a Java program to calculate the 
+sum of all elements in an integer array. 
+*/
 
 public class ArraySum {
     public static void main(String[] args) {
