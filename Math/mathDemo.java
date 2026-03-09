@@ -1,6 +1,6 @@
 // Import the Math class from java.lang package
 import java.lang.Math;
-
+ 
 // Define the mathDemo class
 public class mathDemo {
     // Main method - entry point of the program
