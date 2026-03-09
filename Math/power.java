@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 // Define the power class
 public class power {
-
+ 
     // Recursive method to calculate base raised to the power of exponent
     public static int ppower(int base, int exponent) {
 
