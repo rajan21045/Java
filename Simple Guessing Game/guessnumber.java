@@ -7,7 +7,7 @@ public class guessnumber {
                             int guess;
                             int attempt=0;
                             Random random = new Random();
-        
+    
                         int min = 1;       // Define the minimum value for the random number
 
                         int max = 100;  // Define the maximum value for the random number
