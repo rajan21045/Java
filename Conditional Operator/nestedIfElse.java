@@ -2,7 +2,7 @@ class nestedIfElse {
     public static void main(String[] args) {
         int age = 20;
         boolean isCitizen = true;
-
+ 
         if (age >= 18) {
             System.out.println("Old Enough To Vote");
             if (isCitizen) {
