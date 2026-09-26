@@ -2,6 +2,7 @@
 import java.util.Scanner;
 public class Arstrongs {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("ENTER THE NUMBER : ");  
         int n = scanner.nextInt();
